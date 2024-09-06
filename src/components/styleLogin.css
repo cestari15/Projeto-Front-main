@@ -1,0 +1,141 @@
+/* Renomeando as classes para evitar conflitos */
+.myApp-login-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.myApp-login-panel {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    background-color: white;
+}
+
+.login-right {
+    display: flex;
+    justify-content: center;
+}
+
+.login-right img {
+    background-image: url('../images/login-foto.jpg');
+    width: 100%;
+}
+
+.login-header {
+    margin-top: 50px;
+}
+
+.login-header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.login-header p {
+    margin-top: 20px;
+    opacity: .7;
+}
+
+.login-form {
+    width: 450px;
+    margin-top: 50px;
+}
+
+.login-content {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+
+.fotoLogin{
+    background-image: url('../images/login-foto.jpg');
+   /* background-position: center;
+    position: relative;
+    background-size: cover ;
+    height: 700px;
+    
+    */
+  }
+
+
+input[type='emaill'],
+input[type='passwordd'] {
+    border: 1px solid black;
+    height: 55px;
+    padding: 0 2rem;
+    width: 100%;
+    outline: none;
+    transition: background .5s;
+    font-size: 18px;
+    border-radius: 100px;
+}
+
+.pass-key {
+    border: 1px solid black;
+    height: 55px;
+    padding: 0 2rem;
+    width: 100%;
+    outline: none;
+    transition: background .5s;
+    font-size: 18px;
+    border-radius: 100px;
+}
+
+.show {
+    display: block;
+    position: absolute;
+    margin-left: 380px;
+    bottom: 250px;
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+}
+
+label[for='email'],
+label[for='password'],
+label[for='text'] {
+    font-size: 1.1rem;
+    padding-left: 20px;
+    font-weight: 4600;
+}
+
+.myApp-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+    accent-color: black;
+}
+
+.botaoLogin {
+    border: none;
+    padding: 1rem;
+    height: 55px;
+    font-size: 18px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: .5s;
+}
+
+.botaoLogin:hover {
+    background: black;
+    color: white;
+}
+
+::placeholder {
+    color: grey;
+    font-size: 1rem;
+}
+
+/* Estilos otimizados para dispositivos de baixa resolução */
+
